@@ -6,7 +6,7 @@ Recommended manuscript text after the Zenodo deposit is published:
 > derived data, and figure-generation scripts used in this work are available
 > from Zenodo at **https://doi.org/10.5281/zenodo.XXXXXXX**. The corresponding
 > development repository is hosted on GitHub at
-> **https://github.com/OWNER/REPOSITORY**.
+> **https://github.com/mpbora-creator/REPOSITORY**.
 
 Replace both placeholders only after the GitHub repository and Zenodo record
 exist. Cite the version-specific Zenodo DOI in the paper. Zenodo also provides
