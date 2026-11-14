@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software release and the associated paper."
+title: "Code for A generic route to chaos in self-excited plasma oscillations"
+type: software
+version: 1.0.0
+date-released: 2026-11-14
+authors:
+  - given-names: Bikramjit
+    family-names: Jaordar
+  - given-names: Kalpana
+    family-names: Bora
+  - given-names: Asheesh
+    family-names: Gupta
+  - given-names: Madhurjya P.
+    family-names: Bora
+abstract: >-
+  Julia implementation and reproducibility materials for a one-dimensional
+  electrostatic particle-in-cell study of debris charging, ion-ion
+  counterstreaming instability, nonlinear feedback, and plasma chaos.
+keywords:
+  - particle-in-cell simulation
+  - ion-ion counterstreaming instability
+  - nonlinear charging
+  - plasma chaos
+license: MIT
+repository-code: "https://github.com/OWNER/REPOSITORY"

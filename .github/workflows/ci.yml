@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  julia-smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.12'
+      - uses: julia-actions/cache@v2
+      - name: Instantiate
+        run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
+      - name: Release audit
+        run: ./scripts/audit_release.sh
+      - name: Periodic smoke test
+        run: julia --project=. scripts/quick_check.jl
+      - name: Open-boundary smoke test
+        run: julia --project=. scripts/quick_check_open.jl

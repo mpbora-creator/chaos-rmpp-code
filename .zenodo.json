@@ -1,0 +1,21 @@
+{
+  "title": "Code for A generic route to chaos in self-excited plasma oscillations",
+  "upload_type": "software",
+  "description": "Julia PIC solver, exact paper configurations, analysis routines, compact derived data, and Gnuplot/TikZ figure sources accompanying the paper A generic route to chaos in self-excited plasma oscillations.",
+  "creators": [
+    {"name": "Jaordar, Bikramjit"},
+    {"name": "Bora, Kalpana"},
+    {"name": "Gupta, Asheesh"},
+    {"name": "Bora, Madhurjya P."}
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "particle-in-cell simulation",
+    "ion-ion counterstreaming instability",
+    "nonlinear charging",
+    "plasma chaos"
+  ],
+  "language": "eng",
+  "version": "1.0.0"
+}

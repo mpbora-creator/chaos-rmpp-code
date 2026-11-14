@@ -1,0 +1,12 @@
+.DS_Store
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.tmp
+*.jls
+build/
+diagnostics/
+fig/
+output/
+tmp/
